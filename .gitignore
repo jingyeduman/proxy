@@ -1,0 +1,16 @@
+*DS_Store*
+.buildpath
+.project
+.settings/*
+.vscode/*
+.metadata
+.idea
+node_modules
+dist
+package-lock.json
+.history
+
+# local env files
+.history
+.env.local
+.env.*.local
