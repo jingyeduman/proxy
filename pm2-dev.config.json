@@ -9,6 +9,7 @@
       "max_memory_restart": "512M",
       "autorestart": true,
       "instances": "1",
+      "cron_restart": "*/30 * * * *",
       "watch": true,
       "ignore_watch": ["node_modules"],
       "increment_var": "PORT",
